@@ -1,0 +1,418 @@
+html,
+body {
+  height: 100%;
+}
+h2 {
+  letter-spacing: 2.2px;
+  font-weight: 100;
+  font-size: 2em;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+.centered {
+  justify-content: center !important;
+}
+.reverse {
+  flex-flow: row-reverse wrap !important;
+}
+.vertically-aligned {
+  height: 100%;
+  align-items: center !important;
+}
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: inherit;
+  align-items: flex-start;
+  width: 100% !important;
+  padding: 0rem;
+}
+.grid .container {
+  color: white;
+  min-height: 100px;
+  padding: 10px;
+}
+.grid .container p {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+.grid .container .skeleton {
+  height: 25px;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.15);
+  display: block;
+  margin: 27px auto;
+}
+[class*='desktop-'],
+[class*='tablet-'],
+[class*='phone-'] {
+  margin: 0 0.5% 10px 0.5%;
+}
+.no-gutters [class*='desktop-'],
+.no-gutters [class*='tablet-'],
+.no-gutters [class*='phone-'] {
+  margin: 0 0 10px 0;
+}
+.relaxed-gutters [class*='desktop-'],
+.relaxed-gutters [class*='tablet-'],
+.relaxed-gutters [class*='phone-'] {
+  margin: 0 1% 10px 1%;
+}
+@media (min-width: 991px) {
+  .desktop-one {
+    flex-basis: 7.33333333%;
+  }
+  .desktop-two {
+    flex-basis: 15.66666667%;
+  }
+  .desktop-three {
+    flex-basis: 24%;
+  }
+  .desktop-four {
+    flex-basis: 32.33333333%;
+  }
+  .desktop-five {
+    flex-basis: 40.66666667%;
+  }
+  .desktop-six {
+    flex-basis: 49%;
+  }
+  .desktop-seven {
+    flex-basis: 57.33333333%;
+  }
+  .desktop-eight {
+    flex-basis: 65.66666667%;
+  }
+  .desktop-nine {
+    flex-basis: 74%;
+  }
+  .desktop-ten {
+    flex-basis: 82.33333333%;
+  }
+  .desktop-eleven {
+    flex-basis: 90.66666667%;
+  }
+  .desktop-twelve {
+    flex-basis: 99%;
+  }
+  .no-gutters .desktop-one {
+    flex-basis: 8.33333333%;
+  }
+  .no-gutters .desktop-two {
+    flex-basis: 16.66666667%;
+  }
+  .no-gutters .desktop-three {
+    flex-basis: 25%;
+  }
+  .no-gutters .desktop-four {
+    flex-basis: 33.33333333%;
+  }
+  .no-gutters .desktop-five {
+    flex-basis: 41.66666667%;
+  }
+  .no-gutters .desktop-six {
+    flex-basis: 50%;
+  }
+  .no-gutters .desktop-seven {
+    flex-basis: 58.33333333%;
+  }
+  .no-gutters .desktop-eight {
+    flex-basis: 66.66666667%;
+  }
+  .no-gutters .desktop-nine {
+    flex-basis: 75%;
+  }
+  .no-gutters .desktop-ten {
+    flex-basis: 83.33333333%;
+  }
+  .no-gutters .desktop-eleven {
+    flex-basis: 91.66666667%;
+  }
+  .no-gutters .desktop-twelve {
+    flex-basis: 100%;
+  }
+  .relaxed-gutters .desktop-one {
+    flex-basis: 6.33333333%;
+  }
+  .relaxed-gutters .desktop-two {
+    flex-basis: 14.66666667%;
+  }
+  .relaxed-gutters .desktop-three {
+    flex-basis: 23%;
+  }
+  .relaxed-gutters .desktop-four {
+    flex-basis: 31.33333333%;
+  }
+  .relaxed-gutters .desktop-five {
+    flex-basis: 39.66666667%;
+  }
+  .relaxed-gutters .desktop-six {
+    flex-basis: 48%;
+  }
+  .relaxed-gutters .desktop-seven {
+    flex-basis: 56.33333333%;
+  }
+  .relaxed-gutters .desktop-eight {
+    flex-basis: 64.66666667%;
+  }
+  .relaxed-gutters .desktop-nine {
+    flex-basis: 73%;
+  }
+  .relaxed-gutters .desktop-ten {
+    flex-basis: 81.33333333%;
+  }
+  .relaxed-gutters .desktop-eleven {
+    flex-basis: 89.66666667%;
+  }
+  .relaxed-gutters .desktop-twelve {
+    flex-basis: 98%;
+  }
+}
+@media (max-width: 991px) {
+  .tablet-one {
+    flex-basis: 7.33333333%;
+  }
+  .tablet-two {
+    flex-basis: 15.66666667%;
+  }
+  .tablet-three {
+    flex-basis: 24%;
+  }
+  .tablet-four {
+    flex-basis: 32.33333333%;
+  }
+  .tablet-five {
+    flex-basis: 40.66666667%;
+  }
+  .tablet-six {
+    flex-basis: 49%;
+  }
+  .tablet-seven {
+    flex-basis: 57.33333333%;
+  }
+  .tablet-eight {
+    flex-basis: 65.66666667%;
+  }
+  .tablet-nine {
+    flex-basis: 74%;
+  }
+  .tablet-ten {
+    flex-basis: 82.33333333%;
+  }
+  .tablet-eleven {
+    flex-basis: 90.66666667%;
+  }
+  .tablet-twelve {
+    flex-basis: 99%;
+  }
+  .no-gutters .desktop-one {
+    flex-basis: 8.33333333%;
+  }
+  .no-gutters .desktop-two {
+    flex-basis: 16.66666667%;
+  }
+  .no-gutters .desktop-three {
+    flex-basis: 25%;
+  }
+  .no-gutters .desktop-four {
+    flex-basis: 33.33333333%;
+  }
+  .no-gutters .desktop-five {
+    flex-basis: 41.66666667%;
+  }
+  .no-gutters .desktop-six {
+    flex-basis: 50%;
+  }
+  .no-gutters .desktop-seven {
+    flex-basis: 58.33333333%;
+  }
+  .no-gutters .desktop-eight {
+    flex-basis: 66.66666667%;
+  }
+  .no-gutters .desktop-nine {
+    flex-basis: 75%;
+  }
+  .no-gutters .desktop-ten {
+    flex-basis: 83.33333333%;
+  }
+  .no-gutters .desktop-eleven {
+    flex-basis: 91.66666667%;
+  }
+  .no-gutters .desktop-twelve {
+    flex-basis: 100%;
+  }
+  .relaxed-gutters .desktop-one {
+    flex-basis: 6.33333333%;
+  }
+  .relaxed-gutters .desktop-two {
+    flex-basis: 14.66666667%;
+  }
+  .relaxed-gutters .desktop-three {
+    flex-basis: 23%;
+  }
+  .relaxed-gutters .desktop-four {
+    flex-basis: 31.33333333%;
+  }
+  .relaxed-gutters .desktop-five {
+    flex-basis: 39.66666667%;
+  }
+  .relaxed-gutters .desktop-six {
+    flex-basis: 48%;
+  }
+  .relaxed-gutters .desktop-seven {
+    flex-basis: 56.33333333%;
+  }
+  .relaxed-gutters .desktop-eight {
+    flex-basis: 64.66666667%;
+  }
+  .relaxed-gutters .desktop-nine {
+    flex-basis: 73%;
+  }
+  .relaxed-gutters .desktop-ten {
+    flex-basis: 81.33333333%;
+  }
+  .relaxed-gutters .desktop-eleven {
+    flex-basis: 89.66666667%;
+  }
+  .relaxed-gutters .desktop-twelve {
+    flex-basis: 98%;
+  }
+}
+@media (max-width: 661px) {
+  .phone-one {
+    flex-basis: 7.33333333%;
+  }
+  .phone-two {
+    flex-basis: 15.66666667%;
+  }
+  .phone-three {
+    flex-basis: 24%;
+  }
+  .phone-four {
+    flex-basis: 32.33333333%;
+  }
+  .phone-five {
+    flex-basis: 40.66666667%;
+  }
+  .phone-six {
+    flex-basis: 49%;
+  }
+  .phone-seven {
+    flex-basis: 57.33333333%;
+  }
+  .phone-eight {
+    flex-basis: 65.66666667%;
+  }
+  .phone-nine {
+    flex-basis: 74%;
+  }
+  .phone-ten {
+    flex-basis: 82.33333333%;
+  }
+  .phone-eleven {
+    flex-basis: 90.66666667%;
+  }
+  .phone-twelve {
+    flex-basis: 99%;
+  }
+  .no-gutters .desktop-one {
+    flex-basis: 8.33333333%;
+  }
+  .no-gutters .desktop-two {
+    flex-basis: 16.66666667%;
+  }
+  .no-gutters .desktop-three {
+    flex-basis: 25%;
+  }
+  .no-gutters .desktop-four {
+    flex-basis: 33.33333333%;
+  }
+  .no-gutters .desktop-five {
+    flex-basis: 41.66666667%;
+  }
+  .no-gutters .desktop-six {
+    flex-basis: 50%;
+  }
+  .no-gutters .desktop-seven {
+    flex-basis: 58.33333333%;
+  }
+  .no-gutters .desktop-eight {
+    flex-basis: 66.66666667%;
+  }
+  .no-gutters .desktop-nine {
+    flex-basis: 75%;
+  }
+  .no-gutters .desktop-ten {
+    flex-basis: 83.33333333%;
+  }
+  .no-gutters .desktop-eleven {
+    flex-basis: 91.66666667%;
+  }
+  .no-gutters .desktop-twelve {
+    flex-basis: 100%;
+  }
+  .relaxed-gutters .desktop-one {
+    flex-basis: 6.33333333%;
+  }
+  .relaxed-gutters .desktop-two {
+    flex-basis: 14.66666667%;
+  }
+  .relaxed-gutters .desktop-three {
+    flex-basis: 23%;
+  }
+  .relaxed-gutters .desktop-four {
+    flex-basis: 31.33333333%;
+  }
+  .relaxed-gutters .desktop-five {
+    flex-basis: 39.66666667%;
+  }
+  .relaxed-gutters .desktop-six {
+    flex-basis: 48%;
+  }
+  .relaxed-gutters .desktop-seven {
+    flex-basis: 56.33333333%;
+  }
+  .relaxed-gutters .desktop-eight {
+    flex-basis: 64.66666667%;
+  }
+  .relaxed-gutters .desktop-nine {
+    flex-basis: 73%;
+  }
+  .relaxed-gutters .desktop-ten {
+    flex-basis: 81.33333333%;
+  }
+  .relaxed-gutters .desktop-eleven {
+    flex-basis: 89.66666667%;
+  }
+  .relaxed-gutters .desktop-twelve {
+    flex-basis: 98%;
+  }
+}
+.sky-blue {
+  background: #92AFD7;
+}
+.dark-blue {
+  background: #5A7684;
+}
+.slate-grey {
+  background: #395B50;
+}
+.jungle-green {
+  background: #071E22;
+}
+.orange {
+  background: #DB5860;
+}
+.pink {
+  background: #94618E;
+}
+.brown {
+  background: #230903;
+}
+.vertical-container {
+  margin-bottom: 100px;
+  height: 600px;
+}

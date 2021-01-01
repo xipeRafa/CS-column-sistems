@@ -1,0 +1,28 @@
+ /*For Demo Purpose Only*/
+ 
+ .dp10,
+ .dp12,
+ .dp17,
+ .dp20,
+ .dp25,
+ .dp33,
+ .dp40,
+ .dp50,
+ .dp60,
+ .dp67,
+ .dp75,
+ .dp80,
+ .dp83,
+ .dp100,
+ .fluid {
+     border: 1px solid #e56e6e;
+     color: #1577ca;
+     padding: 10px;
+     margin: 10px 0 10px 15px;
+     text-align: center;
+ }
+ 
+ .fluid {
+     background-color: #1577ca;
+     color: #fff;
+ }
