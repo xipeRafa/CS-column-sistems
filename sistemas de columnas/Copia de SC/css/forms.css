@@ -221,6 +221,7 @@ html {
   input[type="checkbox"],
   input[type="radio"] {
     display: inline;
+    margin:0;
   }
   label > .label-body {
     display: inline-block;
