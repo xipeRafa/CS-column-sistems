@@ -72,6 +72,30 @@
     [class^="row"]>*:last-child {margin-right: 0;}
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* --------Asimetric------------- */
 @media (min-width: 670px) {
     .row_1_3>* {width: 23%;}

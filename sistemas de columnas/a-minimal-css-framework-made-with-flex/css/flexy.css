@@ -1,29 +1,123 @@
-:root {--m: 12px}
+:root {--flexyGap: 6px}
 
-* {box-sizing: border-box;}
+* { box-sizing: border-box; }
 
-.main{display: flex; flex-flow: row wrap;  width: 80%; margin: 0 auto}
+.flexyContainer{
+    width: 80%;
+    display: flex; 
+    flex-flow: row wrap;   
+    margin: 0 auto;
+    outline:1px solid black;
+    padding-right:var(--flexyGap);
+}
 
-.dp10,.dp12,.dp17,.dp20,.dp25,.dp33,.dp40,.dp50,.dp60,.dp67,.dp75,.dp80,.dp83,.dp100,.fluid{margin:0 0 0 var(--m)}
 
-.dp10{width:calc(10% - var(--m))}
-.dp12{width:calc(12.5% - var(--m))}
-.dp17{width:calc(16.6667% - var(--m))}
-.dp20{width:calc(20% - var(--m))}
-.dp25{width:calc(25% - var(--m))}
-.dp33{width:calc(33.3334% - var(--m))}
-.dp40{width:calc(40% - var(--m))}
-.dp50{width:calc(50% - var(--m))}
-.dp60{width:calc(60% - var(--m))}
-.dp67{width:calc(66.6667% - var(--m))}
-.dp75{width:calc(75% - var(--m))}
-.dp80{width:calc(80% - var(--m))}
-.dp83{width:calc(83.3334% - var(--m))}
-.dp100{width:calc(100% - var(--m))}
+.dp10,.dp12,.dp17-6,.dp20,.dp25,.dp33,.dp40,.dp50,.dp60,.dp67,.dp75,.dp80,.dp83,.dp100,.fluid{ margin:0 0 var(--flexyGap) var(--flexyGap) }
+
+
+.dp10{ width: calc(10% -      var(--flexyGap) )}
+.dp12{ width: calc(12.5% -    var(--flexyGap) )}
+.dp17-6{ width: calc(16.6667% - var(--flexyGap) )}
+
+.dp20{ width: calc(20% -      var(--flexyGap) )}
+.dp25{ width: calc(25% -      var(--flexyGap) )}
+.dp33{ width: calc(33.3334% - var(--flexyGap) )}
+
+.dp40{ width: calc(40% - var(--flexyGap) )}
+.dp50{ width: calc(50% - var(--flexyGap) )}
+.dp60{ width: calc(60% - var(--flexyGap) )}
+
+.dp67{ width: calc(66.6667% - var(--flexyGap) )}
+.dp75{ width: calc(75% -      var(--flexyGap) )}
+.dp80{ width: calc(80% -      var(--flexyGap) )}
+
+.dp83{ width: calc(83.3334% - var(--flexyGap) )}
+.dp100{width: 100% }
 
 .fluid{flex:2}
-.clear{width: 100%}
-.nomargin{display: flex; flex-flow: row wrap; padding:0 !important; margin:0 !important}
 
-@media (max-width: 600px) {
-  .dp10,.dp12,.dp17,.dp20,.dp25,.dp33,.dp40,.dp50,.dp60,.dp67,.dp75,.dp80,.dp83,.dp100,.fluid {width:100%; margin:0}}
+.clear{width: 100%}
+
+
+.nomargin{ 
+    display: flex; 
+    flex-flow: row wrap;
+    padding:0 !important; 
+    margin:0 !important
+}
+
+@media (max-width: 700px) {
+
+    .dp10,.dp12,.dp17-6,.dp20,.dp25,.dp33,.dp40,.dp50,.dp60,.dp67,.dp75,.dp80,.dp83,.dp100,.fluid { width:100%; margin:0 }
+
+    .flexyContainer{
+        padding-right:0;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*For Demo Purpose Only*/
+ 
+ .dp10,
+ .dp12,
+ .dp17-6,
+ .dp20,
+ .dp25,
+ .dp33,
+ .dp40,
+ .dp50,
+ .dp60,
+ .dp67,
+ .dp75,
+ .dp80,
+ .dp83,
+ .dp100,
+ .fluid {
+    outline:1px solid black;
+    color: #1577ca;
+    padding: 10px;
+    text-align: center;
+    background-color: peachpuff;
+ }
+ 
+ .fluid {
+     background-color: #1577ca;
+     color: #fff;
+ }
+
+
+
+
+img{
+  width: 100% ;
+}
+
+
+
+  body {
+    background-color: gainsboro;
+            margin: 0;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+  h1 {
+            font-size: 32px;
+            font-family: "HelveticaNeueThin", "HelveticaNeue-Thin", "Helvetica Neue Thin", Arial, sans-serif;
+            font-weight: 200;
+            font-stretch: normal;
+  }

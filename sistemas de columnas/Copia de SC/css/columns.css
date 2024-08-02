@@ -5,8 +5,9 @@
       margin: 0 auto;
       box-sizing: border-box;
       overflow: hidden;
-     background: red;
-   }
+      background: red;
+}
+
 [class^="c_"] { 
         text-align: center;
         color: white;
@@ -16,37 +17,61 @@
         padding:4px;
         margin:3px 0;
         background:limegreen;
-   }
-   .auto{
+}
+
+.auto{
     width: 90%;
     margin: 1% auto;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    
-  }
+}
 
-  .auto>div{
+.auto>div{
     margin: 1% auto;
     width: 100%;
     border: 1px solid whitesmoke;
     text-align: center;
     padding: 1% 0;
-  }
+}
+
  
 @media (min-width: 678px) {
+
         .flex-jcsa{
             display: flex;
             justify-content: space-around;
-          }
+            box-shadow: white inset  1px 1px,white inset -1px -1px;
+        }
+        .flex-jcsa>div{
+            box-shadow: white inset  1px 1px,white inset -1px -1px;
+        }
+
+
+
         .flex-jcsb{
             display: flex;
             justify-content: space-between;
+            box-shadow: white inset  1px 1px,white inset -1px -1px;
         }
+         .flex-jcsb>div{
+            box-shadow: white inset  1px 1px,white inset -1px -1px;
+        }
+
+
+
         .flex-jcse{
             display: flex;
             justify-content: space-evenly;
+            box-shadow: white inset  1px 1px,white inset -1px -1px;
         }
+
+         .flex-jcse>div{
+            box-shadow: white inset  1px 1px,white inset -1px -1px;
+        }
+
+        
+
         .c_1{width: 8.333333333333334%;}
         .c_2{width: 16.666666666666668%;}
         .c_3{width: 33.333333333333336%;}
@@ -63,8 +88,17 @@
         .auto{
             flex-direction: row;
         }
-    }
 
-    .column{
-        flex-direction: column;
-     }
+}
+
+.column{
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+

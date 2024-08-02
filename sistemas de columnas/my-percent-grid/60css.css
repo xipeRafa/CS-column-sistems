@@ -6,22 +6,16 @@ font-variant: normal;
 font-weight: normal;
 text-align: center;
 }
+
+
+
 .grid-percent {
     border: 1px solid red;
-display: grid;
-grid-gap: 1px;
-grid-template-columns: repeat(100, 1fr)
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: repeat(100, 1fr)
 }
-.grid-percent>div{
-    background-color: #46b2fd;
-    color: #fff;
-    border-radius: 4px;
-    padding: 12px;
-}
-.invisible{
-    background-color: transparent !important;
-    border: none !important;
-}
+
 .col-100 { grid-column-end: span 100 } 
 .col-90 { grid-column-end: span 90 } 
 .col-80 { grid-column-end: span 80 } 
@@ -29,27 +23,38 @@ grid-template-columns: repeat(100, 1fr)
 .col-60 { grid-column-end: span 60 } 
 .col-50 { grid-column-end: span 50 } 
 .col-40 { grid-column-end: span 40 } 
-.col-33 { grid-column-end: span 33;margin-left:12px;} 
+.col-33 { grid-column-end: span 33; margin-left:12px;} 
 .col-30 { grid-column-end: span 30 } 
 .col-25 { grid-column-end: span 25 } 
 .col-20 { grid-column-end: span 20 } 
-.col-16 { grid-column-end: span 16;margin-left: 12px; }
+.col-16 { grid-column-end: span 16;  }
 .col-10 { grid-column-end: span 10 } 
 .col-5 { grid-column-end: span 5 } 
 
 
+.grid-percent>div{
+    background-color: #46b2fd;
+    color: #fff;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+.invisible{
+    background-color: transparent !important;
+    border: none !important;
+}
+
 .to3columns{
-    
     display: flex;
     padding: 10px 0;
- 
 }
+
 .to3columns>div:nth-of-type(2n){
-margin: 0 9px;
-   
+    margin: 0 9px; 
 }
+
 .to3columns>div{
-   background-color:  #46b2fd;
+    background-color:  #46b2fd;
     color: #fff;
     border-radius: 4px;
     padding: 12px;
@@ -62,26 +67,25 @@ margin: 0 9px;
     padding: 10px 0;
  
 }
-.to6columns>div:first-child{
-margin-left:  0;
 
-   
+.to6columns>div:first-child{
+    margin-left:  0;
 }
+
 .to6columns>div{
     margin-left: 9px;
-   background-color:  #46b2fd;
+    background-color:  #46b2fd;
     color: #fff;
     border-radius: 4px;
     padding: 12px;
     width: 16.666666%;
-  
 }
 
 
 @media (max-width: 600px)   {
-.grid-percent {grid-gap: 10px 0 }
-.grid-percent > * { grid-column-end: span 100 }
-img{ max-width:100%; height:auto }
+    .grid-percent {grid-gap: 10px 0 }
+    .grid-percent > * { grid-column-end: span 100 }
+    img{ max-width:100%; height:auto }
 }
 
 
