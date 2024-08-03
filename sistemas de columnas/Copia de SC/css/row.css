@@ -13,7 +13,7 @@
   margin-right: 2% ;
   margin-bottom: .5% ;
   background:#0071bc;
-  color: #fff;
+  color: lightgray;
   text-align: center;
   float: left;
   padding: .5% 0;
@@ -21,13 +21,13 @@
   box-shadow: white inset  1px 1px,white inset -1px -1px;
 }
 
-@media (min-width: 360px) {
+@media (min-width: 460px) {
     .row_12>* {width: 32%}
     .row_12>*:nth-child(3n),
     [class^="row"]>*:last-child { margin-right: 0; }
 }
 
-@media (min-width: 480px) {
+@media (min-width: 580px) {
     .row_5>* { width: 18.4%; }
     .row_7>* { width: 12.57%;}
     .row_9>*, .row_3>* { width: 32%; }
@@ -42,7 +42,7 @@
     .row_9>*:nth-child(3n), .row_10>*:nth-child(2n), .row_12>*:nth-child(4n){ margin-right: 0; }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 868px) {
    .row_4>* { width: 23.5%; }
    .row_6>* { width: 32%  ; }
    .row_8>* { width: 23.5%; }
@@ -59,7 +59,7 @@
 }
 
 
-@media (min-width: 1026px) {
+@media (min-width: 1226px) {
     .row_6>* {width: 15%; }
     .row_6>*:nth-child(2n),
     .row_6>*:nth-child(3n) {margin-right: 2%;}
@@ -89,20 +89,13 @@
 
 
 
-
-
-
-
-
-
-
 /* --------Asimetric------------- */
-@media (min-width: 670px) {
+@media (min-width: 770px) {
     .row_1_3>* {width: 23%;}
     .row_1_3>*:nth-child(2n) {width: 75%;}
 } 
 
-@media (min-width: 670px) {
+@media (min-width: 770px) {
     .row_3_1>* {width: 75%;}
     .row_3_1>*:nth-child(2n) {width: 23%;}
 }
@@ -112,7 +105,7 @@
 
 
 /* ------------------------------------- */
-@media (min-width: 670px) {
+@media (min-width: 770px) {
     .row_1_2_1>* {width: 20%;}
     .row_1_2_1>*:nth-child(2n) {width: 56%;}
 }
@@ -121,12 +114,12 @@
 
 
 /* ---------------------------------- */
-@media (min-width: 670px) {
+@media (min-width: 770px) {
     .row_1_1_2>* {width: 23.5%;}
     .row_1_1_2>*:nth-child(3n) {width: 49%;}
 }
 
-@media (min-width: 670px) {
+@media (min-width: 770px) {
     .row_2_1_1>*:first-child {width: 49%;}
     .row_2_1_1>*{width: 23.5%;}
 }
@@ -135,12 +128,12 @@
 
 
 /* ---------------------------------- */
-@media (min-width: 670px) {
+@media (min-width: 770px) {
     .row_3_1_1_1>*:first-child { width: 49%; }
     .row_3_1_1_1>*{ width: 15%; }
 }
 
-@media (min-width: 670px) {
+@media (min-width: 770px) {
     .row_1_1_1_3>*{ width: 15%; }
     .row_1_1_1_3>*:last-child{ width: 49%; }
 }   
@@ -150,21 +143,21 @@
 
 
 /*      -5_4     */
-@media (min-width: 360px) {
+@media (min-width: 460px) {
     .row-5_4>*{ width: 49%; }
     .row-5_4>*:nth-child(2n) { margin-right:0; }
     .row-5_4>*:last-child { margin-left:25.5%; }
     [class^="row"]>*:last-child { margin-right: 0; }
 }
 
-@media (min-width: 480px) {
+@media (min-width: 580px) {
     .row-5_4>*{width: 32%;}
     .row-5_4>*:nth-child(2n) {margin-right:2%;}
     .row-5_4>*:nth-child(3n) {margin-right:0}
     .row-5_4>*:last-child {margin-left:0;}
 } 
 
-@media (max-width: 480px) {
+@media (max-width: 580px) {
     .row-5_4>*:last-child{
         width: 100%;
         margin-left: 0;
@@ -185,7 +178,7 @@
  */
 
 /*4-2-3*/  
-@media (min-width: 768px) {
+@media (min-width: 868px) {
     .row-5_4>* { width: 23.5%; }  
     .row-5_4>*:nth-child(4) { margin-right:0;   }
     .row-5_4>*:nth-child(3n){ margin-right:2%;  }
@@ -199,7 +192,7 @@
 
 
  
-@media (min-width: 1024px) {
+@media (min-width: 1224px) {
     .row-5_4>* { width: 18.4% }
     .row-5_4>*:nth-child(5) { margin-right: 0 ; margin-left: 2%; } 
     .row-5_4>*:nth-child(8) { margin-right: 2%; margin-left: 4%; }

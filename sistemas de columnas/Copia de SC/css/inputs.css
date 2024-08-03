@@ -10,6 +10,7 @@
 [class^="btn"]>div{
   margin-right: 2% ;
   float: left;
+  color: black!important;
 }
  
 
@@ -34,7 +35,7 @@
     border-radius: 6px;
     margin: 0;
     width: 100%;
-    color: black;
+    color: black!important;
     text-transform: uppercase;
 }
 
@@ -44,5 +45,6 @@
 
 [class^="row"]>div>input{
   width: 100%;
+  color: black!important;
 }
 
