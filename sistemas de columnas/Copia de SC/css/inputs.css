@@ -1,35 +1,46 @@
+
 [class^="btn"]{
     width: 90%;
     margin:  .4% 5% ;
     overflow: hidden;
     padding: .5% 0;
-  }
+}
+
 
 [class^="btn"]>div{
   margin-right: 2% ;
   float: left;
 }
  
+
 .btn>div{
   width: 100%;
 } 
+
+
 .btn_2>div {
   width: 49%;
- }
+}
+
+
 .btn_3>div {
   width: 32%;
- }
+}
+
+
 [class^="btn"]>div>input{
-     background-color: rgba(224, 64, 64, 0.418); 
+    background-color: rgba(224, 64, 64, 0.418); 
     padding: 5px 0;
     border-radius: 6px;
     margin: 0;
     width: 100%;
-    color: #fff;
+    color: black;
     text-transform: uppercase;
-  }
+}
+
 
 [class^="btn"]>div:last-child {margin-right: 0;}
+
 
 [class^="row"]>div>input{
   width: 100%;

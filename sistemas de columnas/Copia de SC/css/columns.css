@@ -5,7 +5,7 @@
       margin: 0 auto;
       box-sizing: border-box;
       overflow: hidden;
-      background: red;
+      background: skyblue;
 }
 
 [class^="c_"] { 
@@ -33,10 +33,16 @@
     border: 1px solid whitesmoke;
     text-align: center;
     padding: 1% 0;
+    background-color: turquoise;
+    color: white;
+}
+.auto>div>div{
+     box-shadow: white inset  1px 1px,white inset -1px -1px;
+     margin:2px;
 }
 
  
-@media (min-width: 678px) {
+@media (min-width: 878px) {
 
         .flex-jcsa{
             display: flex;
@@ -67,6 +73,16 @@
         }
 
          .flex-jcse>div{
+            box-shadow: white inset  1px 1px,white inset -1px -1px;
+        }
+
+         .flex-jcsc{
+            display: flex;
+            justify-content: center;
+            box-shadow: white inset  1px 1px,white inset -1px -1px;
+        }
+
+         .flex-jcsc>div{
             box-shadow: white inset  1px 1px,white inset -1px -1px;
         }
 

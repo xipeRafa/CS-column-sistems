@@ -12,7 +12,7 @@
   box-sizing: border-box;
   margin-right: 2% ;
   margin-bottom: .5% ;
-  background:darkred;
+  background:#0071bc;
   color: #fff;
   text-align: center;
   float: left;
@@ -107,11 +107,18 @@
     .row_3_1>*:nth-child(2n) {width: 23%;}
 }
 
+
+
+
+
 /* ------------------------------------- */
 @media (min-width: 670px) {
     .row_1_2_1>* {width: 20%;}
     .row_1_2_1>*:nth-child(2n) {width: 56%;}
 }
+
+
+
 
 /* ---------------------------------- */
 @media (min-width: 670px) {
@@ -125,6 +132,8 @@
 }
 
 
+
+
 /* ---------------------------------- */
 @media (min-width: 670px) {
     .row_3_1_1_1>*:first-child { width: 49%; }
@@ -135,6 +144,8 @@
     .row_1_1_1_3>*{ width: 15%; }
     .row_1_1_1_3>*:last-child{ width: 49%; }
 }   
+
+
 
 
 
