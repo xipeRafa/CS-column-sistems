@@ -1,15 +1,15 @@
 body {
-font-family: 'Montserrat', sans-serif;
-font-size-adjust: none;
-font-style: normal;
-font-variant: normal;
-font-weight: normal;
-text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size-adjust: none;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-align: center;
 }
 
 
 
-.grid-percent{
+.grid-percent {
     border: 1px solid red;
     display: grid;
     grid-gap: 2px;
@@ -25,7 +25,7 @@ text-align: center;
 .col-40 { grid-column-end: span 40 } 
 .col-33 { grid-column-end: span 33; margin-left:12px;} 
 .col-30 { grid-column-end: span 30 } 
-/*.col-25 { grid-column-end: span 25 } */
+.col-25 { grid-column-end: span 25 } 
 .col-20 { grid-column-end: span 20 } 
 .col-16 { grid-column-end: span 16;  }
 .col-10 { grid-column-end: span 10 } 
@@ -58,41 +58,9 @@ text-align: center;
     color: #fff;
     border-radius: 4px;
     padding: 12px;
-    width: 33.3333333333333%; 
+    width: 33.3333333333333%;
+  
 }
-
-
-
-
-
-
-
-.grid-percent2>div{
-    border: 1px solid red;
-    display: grid;
-    grid-gap: 2px;
-    grid-template-columns: repeat(100, 1fr)
-}
-
-
-
-.col-25>div{
-     background-color:  #46b2fd;
-    color: #fff;
-    border-radius: 4px;
-    padding: 12px;
-    grid-column-end: span 25;
-}
-
-
-
-
-
-
-
-
-
-
 .to6columns{
     
     display: flex;
@@ -115,11 +83,8 @@ text-align: center;
 
 
 @media (max-width: 600px)   {
-    .grid-percent { grid-gap: 10px 0 }
+    .grid-percent {grid-gap: 10px 0 }
     .grid-percent > * { grid-column-end: span 100 }
-
-    .grid-percent2 >div{ grid-gap: 10px 0 }
-    .grid-percent2 >div> * { grid-column-end: span 100 }
     img{ max-width:100%; height:auto }
 }
 
