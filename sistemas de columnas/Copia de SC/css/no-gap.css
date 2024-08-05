@@ -1,6 +1,4 @@
 [class^="flex"]{
-      display:block;
-      position: relative;
       width: 90%;
       margin: 0 auto;
       box-sizing: border-box;
@@ -22,7 +20,6 @@
 .no-gap{
     width: 90%;
     margin: .4% auto;
-    box-sizing: border-box;
     display: flex;
     flex-direction: column;
 }
@@ -35,6 +32,7 @@
     background-color: darkturquoise;
     color: white;
     padding: 7px ;
+    box-sizing: border-box;
 
 }
 
@@ -105,12 +103,17 @@
 
         .no-gap{
             flex-direction: row;
+             width: 90%;
         }
 
 }
 
 .column{
     flex-direction: column;
+}
+
+.m-auto{
+    margin: 0 auto;
 }
 
 
