@@ -46,6 +46,10 @@ p{
     grid-auto-flow: dense;
 }
 
+@media (max-width:900px){
+    .gallery{padding: 0;}
+}
+
 /*.featured{
     grid-column: span 2;
     border: 1px solid red;
