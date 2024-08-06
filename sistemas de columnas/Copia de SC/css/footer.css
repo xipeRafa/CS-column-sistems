@@ -1,0 +1,19 @@
+
+nav{
+	background-color: midnightblue;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	text-align: center;
+	color: white;
+	height: 50px;
+}
+
+footer{
+	background-color: midnightblue;
+	text-align: center;
+	color: white;
+	height: 400px;
+}
+
+

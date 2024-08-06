@@ -1,5 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+}  
+
   html {  
     font-size: 62.5%;
+    padding: 0;
+
   }
 
   body {
@@ -9,6 +17,9 @@
     font-weight: 400;
     font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,sans-serif;
     color: #222;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
   }
 
   img{width: 100%;}
